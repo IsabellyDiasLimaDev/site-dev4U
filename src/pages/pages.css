@@ -44,13 +44,13 @@
     width: 140px;
     height: 140px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
     margin: 40px 20px;
 }
 .card:hover{
     transform: translateY(-3px);
     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-    box-shadow: 0px 0px 10px 5px rgba(241,132,15,0.48);
+    box-shadow: 0px 0px 10px 5px rgba(241,132,15,0.3);
 }
 .title-card{
     font-size: 15px;
@@ -76,7 +76,7 @@ p.texts{
     margin-bottom: 50px;
     padding: 20px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.4);
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.1);
     max-width: 1150px;
     min-width: 320px;
 }
