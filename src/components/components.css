@@ -40,14 +40,15 @@
     height: 5px;
     content: "";
     position: absolute;
-    background-color: #f1840f;
+    background-image: linear-gradient(to right, #f1840f, #e97d0c, #e17709, #d97006, #d16a03, #cd6602, #c96101, #c55d00, #c35a00, #c25600, #c05301, #be4f01);
 }
+
 .footer-link::before {
     transition: 300ms;
     height: 5px;
     content: "";
     position: absolute;
-    background-color: #477abd;
+    background-image: linear-gradient(to right, #477abd, #4175b8, #3b70b2, #356cad, #2e67a8, #2963a3, #245f9f, #1e5b9a, #185695, #115290, #094d8c, #004987);
 }
 
 .nav-link-ltr::before, .footer-link::before {
@@ -68,19 +69,19 @@
     text-align: center;
 }
 
-.footer-dark{
-    background-image: linear-gradient(to right, #ee7c00, #ef7e04, #f08007, #f0820b, #f1840f);
+.footer-dark {
+    background-image: linear-gradient(to right, #9196a4, #969baa, #9aa0b0, #9fa6b7, #a4abbd);
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: center;
 }
 
-.footer-dark ul{
+.footer-dark ul {
     display: flex;
 }
-.footer-dark ul li{
+
+.footer-dark ul li {
     list-style: none;
     color: #FFF;
 }
-

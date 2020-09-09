@@ -24,6 +24,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: row;
+    flex-wrap: wrap;
 }
 
 .title{
@@ -44,13 +45,14 @@
     width: 140px;
     height: 140px;
     border-radius: 5px;
-    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.2);
+    box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.2);
     margin: 40px 20px;
 }
 .card:hover{
     transform: translateY(-3px);
     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
-    box-shadow: 0px 0px 10px 5px rgba(241,132,15,0.3);
+    /*background-color: rgb(235, 186, 11);*/
+    box-shadow: 0px 0px 8px 5px rgba(235, 186, 11,0.3);
 }
 .title-card{
     font-size: 15px;
