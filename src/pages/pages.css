@@ -1,6 +1,6 @@
 body{
     min-height: 100vh;
-    
+
 }
 
 
@@ -14,7 +14,7 @@ body{
 }
 .header p{
     color: #ffffff;
-    font-size: 30px;
+    font-size: 40px;
     margin-left: 40px;
     text-align: center;
     margin-top: 100px;
@@ -43,13 +43,17 @@ body{
     width: 64px;
     height: 64px;
 }
+.paragraph-card{
+    text-align: center;
+}
+
 .card{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column; 
-    width: 140px;
-    height: 140px;
+    width: 230px;
+    height: 200px;
     border-radius: 5px;
     box-shadow: 0px 0px 8px 5px rgba(0,0,0,0.2);
     margin: 40px 20px;
@@ -58,10 +62,11 @@ body{
     transform: translateY(-3px);
     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
     /*background-color: rgb(235, 186, 11);*/
-    box-shadow: 0px 0px 8px 5px rgba(235, 183, 11, 0.3);
+    box-shadow: 0px 0px 8px 5px #349afa6e;
 }
 .title-card{
-    font-size: 15px;
+    
+    font-size: 20px;
     color: #284f62;
     margin-top: 10px;
     font-weight: 600;

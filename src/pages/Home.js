@@ -25,14 +25,17 @@ function Home() {
                     <div className="card">
                         <img src={research} alt="sistema erp" className="icons" />
                         <p className="title-card">Sistema ERP</p>
+                        <p className="paragraph-card">Oferecemos suluções inovadoras para sua empresa!</p>
                     </div>
                     <div className="card">
                         <img src={cashier} alt="sistema pdv" className="icons" />
                         <p className="title-card">Sistema PDV</p>
+                        <p className="paragraph-card">Soluções completas em Software e Equipamentos. </p>
                     </div>
                     <div className="card">
                         <img src={telemarketer} alt="suporte tecnico" className="icons" />
                         <p className="title-card">Suporte Técnico</p>
+                        <p className="paragraph-card">possibilitamos o atentimento descomplicado e agíl!</p>
                     </div>
                 </div>
             </div>
