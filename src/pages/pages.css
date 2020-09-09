@@ -1,3 +1,7 @@
+.body{
+    min-height: 100vh;
+}
+
 .header{
     background: url(../assets/code_header.jpg) no-repeat;
     width: 100%;

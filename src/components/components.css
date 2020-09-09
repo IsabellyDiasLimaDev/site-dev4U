@@ -70,6 +70,7 @@
 }
 
 .footer-dark {
+    margin-top: 100px;
     background-image: linear-gradient(to right, #9196a4, #969baa, #9aa0b0, #9fa6b7, #a4abbd);
     display: flex;
     flex-direction: row;
