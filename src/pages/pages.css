@@ -1,3 +1,9 @@
+body{
+    min-height: 100vh;
+    
+}
+
+
 .header{
     background: url(../assets/code_header.jpg) no-repeat;
     width: 100%;
@@ -52,7 +58,7 @@
     transform: translateY(-3px);
     transition: all 800ms cubic-bezier(0.19, 1, 0.22, 1);
     /*background-color: rgb(235, 186, 11);*/
-    box-shadow: 0px 0px 8px 5px rgba(235, 186, 11,0.3);
+    box-shadow: 0px 0px 8px 5px rgba(235, 183, 11, 0.3);
 }
 .title-card{
     font-size: 15px;

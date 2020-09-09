@@ -75,6 +75,7 @@
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    margin-top: 20vh;
 }
 
 .footer-dark ul {
