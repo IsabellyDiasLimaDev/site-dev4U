@@ -1,11 +1,25 @@
 import React from 'react';
 
-// import { Container } from './styles';
+import Navbar from '../components/Navbar';
+import Footer from '../components/Footer';
+import './pages.css';
 
-function Contact() {
-  return <div>
-    <p>Contato da empresa</p>
-  </div>;
+
+
+function contact() {
+    return (
+        <>
+            <Navbar />
+            <div>
+                <div className="header">
+                    <p className="pharagraph">Contato</p>
+                </div>
+            </div>
+            <div className="container">
+                
+            </div>
+            <Footer />
+        </>
+    );
 }
-
-export default Contact;
+export default contact;

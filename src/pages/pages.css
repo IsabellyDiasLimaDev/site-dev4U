@@ -43,6 +43,9 @@ body{
     width: 64px;
     height: 64px;
 }
+.pharagraph{
+    font-size: 100px;
+}
 .paragraph-card{
     text-align: center;
 }

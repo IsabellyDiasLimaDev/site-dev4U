@@ -11,6 +11,7 @@ function Navbar() {
     return (
         <>
             <nav className="navbar">
+                
                 <div>
                     <Link to="/"><img src={logo} alt="logo" className="logo" /></Link>
                 </div>
@@ -23,6 +24,7 @@ function Navbar() {
                 </div>
             </nav>
         </>
+        
     );
 }
 
