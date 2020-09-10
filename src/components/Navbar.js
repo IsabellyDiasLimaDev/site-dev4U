@@ -20,20 +20,19 @@ function Navbar() {
         });
     return (
         <>
-            <nav class="nav">
-                <div class="container">
-                    <div class="logo">
-                        <a href="#">Your Logo</a>
+            <nav className="nav">
+                <div className="nav-content">
+                    <div className="div-logo">
+                        <Link to="/"><img src={logo} alt="logo" className="logo"/></Link>
                     </div>
-                    <div id="mainListDiv" class="main_list">
-                        <ul class="navlinks">
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Portfolio</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact</a></li>
+                    <div id="mainListDiv" className="main_list">
+                        <ul className="navlinks">
+                            <li><Link to="/" className="nav-link nav-link-ltr">Home</Link></li>
+                            <li><Link to="/about" className="nav-link nav-link-ltr">Sobre</Link></li>
+                            <li><Link to="/contact" className="nav-link nav-link-ltr">Contato</Link></li>
                         </ul>
                     </div>
-                    <span class="navTrigger">
+                    <span className="navTrigger">
                         <i></i>
                         <i></i>
                         <i></i>
